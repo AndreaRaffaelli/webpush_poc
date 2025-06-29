@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/background_image"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    >
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="News Feed"
+        android:textSize="40sp"
+        android:textColor="@android:color/white"
+        android:fontFamily="sans-serif"
+        android:textStyle="italic"
+        android:outlineSpotShadowColor="@color/black"
+        android:layout_marginBottom="16dp" /> <!-- Margin below the title -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/ipInput"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:hint="Server IP" />
+
+        <Button
+            android:id="@+id/saveIpButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Salva IP" />
+    </LinearLayout>
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/textNotifications"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:typeface="monospace"
+            android:lineSpacingExtra="4dp"
+            android:textIsSelectable="true"/>
+    </ScrollView>
+</LinearLayout>
