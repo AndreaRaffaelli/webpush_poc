@@ -1,4 +1,4 @@
-# Mobile System Project
+# Mobile Systems Project
 
 This project is a proof of concept (PoC) demonstrating the integration of a notification system in an Android application using the Web Push protocol. It leverages the Firebase Cloud Messaging (FCM) push proxy as part of the Google development environment.
 
