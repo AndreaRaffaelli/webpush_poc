@@ -42,7 +42,7 @@
     <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:padding="16dp">
+        android:padding="10dp">
 
         <TextView
             android:id="@+id/textNotifications"
@@ -52,6 +52,8 @@
             android:textColor="@android:color/black"
             android:typeface="monospace"
             android:lineSpacingExtra="4dp"
-            android:textIsSelectable="true"/>
+            android:textIsSelectable="true"
+            android:background="@drawable/glassy_background"/><!-- Set the background here -->
     </ScrollView>
+
 </LinearLayout>
